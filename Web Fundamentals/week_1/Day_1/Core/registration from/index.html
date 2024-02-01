@@ -9,20 +9,39 @@
  <form action"/process" method="registration from">
     <div>
         <h1>Regestration From</h1>
-        <label>first name:</label> 
+        <label>first name*:</label> 
         <input type="text" name="text" placeholder="text">
     </div>
     <div>
-        <label>last name:</label> 
+        <label>last name*:</label> 
         <input type="text" name="text" placeholder="text"> 
     </div>
     <div>
-        <label>Email:</label> 
+        <label>Email address*:</label> 
         <input type="email" name="email" placeholder="email"> 
     </div>
     <div>
-        <label>Password:</label> 
+        <label>confirm Password*:</label> 
         <input type="password" name="text" placeholder="text"> 
+        <br>
+        <label>Birthday:</label>
+        <input type="date" name="dob">
+<div>
+    <label>gender identity:</label><br>
+    <input type="radio" value="male" id="male" />
+    <label for="">Male</label>
+    <input type="radio" name="font" value="female" id="female">
+    <label for="">Female</label>
+    <input type="radio" name="font" value="non-binary" id="non-binary">
+    <label for="">Non-binary</label>
+    <input type="radio" name="font" value="prefer" id="prefer">
+    <label for="">I prefer not to answer</label>
+    <br>
+    <label>ashort description about myssellf:</label>
+
+</div>
+        
+
     </div>
     <div>
         
@@ -31,17 +50,21 @@
         <textarea name="DESCRIPTION" cols="20" rows="3"></textarea>
     </div>
     <div>
+        <label>favorite language:</label>
         <select name="snack">
             <option value="jAVASCRIPT">jAVASCRIPT</option>
-            <option value="Cheese and Crackers">Cheese and Crackers</option>
-            <option value="Pita and Hummus">Pita and Hummus</option>
-            <option value="Pears">Pears</option>
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="text">text</option>
         </select>
     </div>
     <div>
         <input type="checkbox" name="accept" id="accept">
-<label for="accept">I agree</label>
+        
+<label for="accept">yes,i would like to receive periodic email updates</label>
 </div>
 <button>create account</button>
+<br>
+<label>*indicates arequired field</label>
 </body>
 </html>
